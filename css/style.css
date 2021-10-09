@@ -1,0 +1,205 @@
+* {
+    font-family:'Helvetica';
+    line-height: 1.5em;
+    line-height: 1.618em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+
+body {
+    background: white;
+}
+
+p {
+    font-family: Tahoma, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+html {
+    font-size: 16px;
+    margin-top: 3em;
+}
+
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-size: 4em;
+    color: rgb(50, 175, 212)
+}
+
+h2, h3 {
+    color: black;
+    margin-bottom: 1em;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: .2px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+    background-color: black;
+    height: 60px;
+}
+
+nav a {
+    padding: .5em .5em;
+    color :rgb(201, 198, 198);
+    font-weight: bolder;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 14px;
+    text-overflow: initial;
+}
+
+nav a:hover {
+    text-decoration: overline;
+    color: rgb(83, 190, 209);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.container > #about {
+    color: black;
+    display: block;
+    align-items: flex-end;
+    max-width: 1000px;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    max-width: 100%;
+    height: 400px;
+}
+
+li {
+    font-size: 14px;
+}
+
+button {
+  background: black;
+  border: 1px solid;
+  color: ivory;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#button {
+    display: flex;
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(95, 95, 94);
+}
+
+button a:hover {
+    color: ivory;
+}
+
+.profileimage {
+    float: left;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    margin-right: 50px;
+}
+
+#about {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+#contact {
+    font-size: 18px;
+    line-height: 2em;
+}
+
+section {
+    margin: 1em, 0;
+    padding-top: 3em;
+    min-height: 20em;
+}
+
+section > p {
+    margin: 1em 0;
+    padding: 2em;
+}
+
+section ul {
+    padding-left: 1.5em;
+}
+
+#skills {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+
+#project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+}
+
+#myProjects h2{
+    text-align: center;
+}
+
+#project h3 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 0;
+    background: #666;
+    background-color: black;
+    padding: 1em 0;
+    text-align: center;
+    justify-content: center;
+}
+
+footer p {
+    color: rgb(201, 198, 198);
+    padding: .5em 2em;
+    font-size: 14px;
+}
+
